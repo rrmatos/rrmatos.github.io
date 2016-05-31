@@ -22,7 +22,7 @@ comments:
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
-    "https://www.facebook.com/gabriel.araujo.1205"
+    # https://www.facebook.com/gabriel.araujo.1205
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
