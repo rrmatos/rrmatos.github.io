@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
   - title: "Profile"
     url: https://gastd.github.io/profile/
@@ -14,3 +14,12 @@ main:
 
   # - title: "Sample Collections"
     # url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
