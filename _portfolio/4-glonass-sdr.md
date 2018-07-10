@@ -62,7 +62,7 @@ katex.render("L_1 = 1602 + K * 0.5625 MHz", l1_glonass_band);
 katex.render("L_2 = 1246 + K * 0.4375 MHz", l2_glonass_band);
 </script>
 
-  Where K = [-7;6] is the channel number. In the L1 band, two signals are transmitted: a standard precision and an obfuscated high precision signal. The FDMA system allows the satellites to send same PRN code using the BPSK modulation. The below picture shows the spectra of GLONASS signals in L1.
+  Where {% latex %}K = [-7;6]{% endlatex %} is the channel number. In the L1 band, two signals are transmitted: a standard precision and an obfuscated high precision signal. The FDMA system allows the satellites to send same PRN code using the BPSK modulation. The below picture shows the spectra of GLONASS signals in L1.
 
 <figure class="align-center">
   <img src="https://gssc.esa.int/navipedia/images/2/2e/GLONASS_Sig_Plan_Fig_2.png">
@@ -120,6 +120,13 @@ These acquisitions were made with 125 Hz of Doppler step. The X axis is the acqu
 </figure>
 
   For the Doppler, a PLL Costas loop was implemented, furthermore, for the Code Delay, a DLL was implemented. A Carrier-Aided track was also implemented. In this tracking, the Doppler loop aids the code loop reducing the noise in the code loop measurements. As done for the acquisition, unit-tests were also written for the tracking.
+  The discriminator used in PLL Costas is the two quadrant arctan:
+  {% latex centred %} \phi = \arctan{\bigg(\frac{Q_ps}{I_ps}\bigg)} {% endlatex %}
+  The discriminator used in DLL Noncoherent Early minus Late envelope normalized discriminator:
+  {% latex centred %} error = \frac{E - L}{E + L} {% endlatex %}
+  Where E and L are Early and Late correlators normalized:
+  {% latex centred %} E = \sqrt{I_E^2 + Q_E^2} {% endlatex %}
+  {% latex centred %} L = \sqrt{I_L^2 + Q_L^2} {% endlatex %}
 
   The discriminator used in PLL Costas is the two quadrant arctan and the discriminator used in DLL Noncoherent Early minus Late envelope normalized discriminator.
 
@@ -187,3 +194,5 @@ These acquisitions were made with 125 Hz of Doppler step. The X axis is the acqu
 [3] B. Hofmann-Wellenhof, H. Lichtenegger, and E. Wasle, GNSS--global navigation satellite systems GPS, GLONASS, Galileo, and more. Wien: Springer, 2008.
 
 [4] E. D. Kaplan and C. Hegarty, Understanding GPS: principles and applications. Norwood: Artech House, 2006.
+
+{% include katex_render.js %}

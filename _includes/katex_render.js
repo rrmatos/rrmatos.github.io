@@ -1,6 +1,3 @@
-<!-- start custom footer snippets -->
-<!-- KaTeX -->
-<script type="text/javascript">
 $("script[type='math/tex']").replaceWith(
   function(){
     var tex = $(this).text();
@@ -16,6 +13,3 @@ $("script[type='math/tex; mode=display']").replaceWith(
            katex.renderToString("\\displaystyle "+tex) +
            "</div>";
 });
-</script>
-
-<!-- end custom footer snippets -->
