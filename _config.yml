@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en"
-title                    : "Gabriel Araujo"
+title                    : "Rafael Ramos"
 title_separator          : "-"
-name                     : "Gabriel Araujo"
+name                     : "Rafael Ramos"
 description              : "An amazing website."
-url                      : "https://gastd.github.io"
+url                      : "https://rrmatos.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gabriel Araujo"
-  avatar           : "/images/avatar.png"
+  name             : "Rafael Ramos"
+  avatar           : "/images/foto.png"
   bio              : "I am an amazing person."
   location         : "Brasilia, Brazil"
-  email            : "gabriel.fp.araujo@gmail.com"
+  email            : "ramosunb@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -119,13 +119,13 @@ author:
   flickr           :
   facebook         : #"gabriel.araujo.1205"
   foursquare       :
-  github           : "Gastd"
+  github           : "rrmatos"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "gastd" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "rrmatos" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -141,7 +141,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:gabriel.fp.araujo@gmail.com
+      url: mailto:ramosunb@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
