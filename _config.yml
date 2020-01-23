@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en"
-title                    : "Rafael Ramos"
+title                    : "Rafael Ramos de Matos"
 title_separator          : "-"
-name                     : "Rafael Ramos"
+name                     : "Rafael Ramos de Matos"
 description              : "An amazing website."
 url                      : "https://rrmatos.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rafael Ramos"
+  name             : "Rafael Ramos de Matos"
   avatar           : "/images/foto.png"
   bio              : "I am an amazing person."
   location         : "Brasilia, Brazil"
