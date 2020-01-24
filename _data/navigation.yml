@@ -1,14 +1,14 @@
 # main links
 main:
   - title: "Profile"
-    url: https://gastd.github.io/profile/
+    url: https://rrmatos.github.io/profile/
     description: "Profile page"
 
   - title: "Portfolio"
-    url: https://gastd.github.io/portfolio
+    url: https://rrmatos.github.io/portfolio
 
   - title: "Resume"
-    url: https://gastd.github.io/resume/
+    url: https://rrmatos.github.io/resume/
     description: "My Resume"
 
   # - title: "My Projects"
